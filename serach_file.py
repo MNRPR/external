@@ -8,11 +8,11 @@ while True:
     file_list = os.listdir(cur_dir)
     parent_dir = os.path.dirname(cur_dir)
     if file_name in file_list:
-        print "File found in: ", cur_dir
+        print "Wow ! the file found in: ", cur_dir
         break
     else:
         if cur_dir == parent_dir: #if dir is root dir
-            print "File not found"
+            print "Sorry the file not found"
             break
         else:
             cur_dir = parent_dir
