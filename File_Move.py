@@ -4,7 +4,7 @@ Scan a designated set of directories for KLA maps to move, then transfer them to
 appropriate production maps directories
 Log to file and email a list of interested people on error
 """
-__author__ = "Casey Knolla"
+__author__ = "Manjunatha Rao"
 __version__ = "2018-07-06"
 #############
 # 2018-07-06: update to use utils CK
