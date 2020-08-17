@@ -1,6 +1,6 @@
 import re
 
-log_file_path = r"C:\ios logs\sfbios.log"
+log_file_path = r"/var/log/system.log"
 regex = '(<property name="(.*?)">(.*?)<\/property>)'
 
 match_list = []
